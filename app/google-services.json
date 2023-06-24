@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "431706090875",
+    "project_id": "seasonal-fruits-94ba8",
+    "storage_bucket": "seasonal-fruits-94ba8.appspot.com",
+    "firebase_url":"https://seasonal-fruits-94ba8-default-rtdb.asia-southeast1.firebasedatabase.app/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431706090875:android:3e13596b0acea4319761de",
+        "android_client_info": {
+          "package_name": "com.Seasonal_fruits.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431706090875-c32c61a4hoer9ndr5jm6juq2ebn8a1r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Seasonal_fruits.application",
+            "certificate_hash": "3329d6280bcd2eced5ac808d91d2a9588909e753"
+          }
+        },
+        {
+          "client_id": "431706090875-nj0mkpg2m4mkbsn16i7dm2prse4a9jvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1w7Dq65dWA5OtoOWtAUzbwGIPmV7vT_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431706090875-nj0mkpg2m4mkbsn16i7dm2prse4a9jvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
