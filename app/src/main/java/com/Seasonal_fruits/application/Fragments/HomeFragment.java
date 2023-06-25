@@ -1,6 +1,7 @@
 package com.Seasonal_fruits.application.Fragments;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,6 +52,9 @@ public class HomeFragment extends Fragment {
         tv_summer=view.findViewById(R.id.summer);
         tv_autumn=view.findViewById(R.id.autumn);
         tv_winter=view.findViewById(R.id.winter);
+        if (getActivity() != null) {
+            getActivity().setTitle("Spring Fruits");
+        }
         spring();
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -59,6 +63,9 @@ public class HomeFragment extends Fragment {
         recyclerView.setAdapter(mainAdapter);
 
         tv_spring.setOnClickListener(v->{
+            if (getActivity() != null) {
+                getActivity().setTitle("Spring Fruits");
+            }
             spring();
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
             recyclerView.setHasFixedSize(true);
@@ -66,6 +73,9 @@ public class HomeFragment extends Fragment {
             recyclerView.setAdapter(springAdapter);
         });
         tv_summer.setOnClickListener(v->{
+            if (getActivity() != null) {
+                getActivity().setTitle("Summer Fruits");
+            }
             summer();
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
             recyclerView.setHasFixedSize(true);
@@ -73,6 +83,9 @@ public class HomeFragment extends Fragment {
             recyclerView.setAdapter(summerAdapter);
         });
         tv_autumn.setOnClickListener(v->{
+            if (getActivity() != null) {
+                getActivity().setTitle("Autumn Fruits");
+            }
             autumn();
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
             recyclerView.setHasFixedSize(true);
@@ -80,6 +93,9 @@ public class HomeFragment extends Fragment {
             recyclerView.setAdapter(autumnAdapter);
         });
         tv_winter.setOnClickListener(v->{
+            if (getActivity() != null) {
+                getActivity().setTitle("Winter Fruits");
+            }
             winter();
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
             recyclerView.setHasFixedSize(true);
