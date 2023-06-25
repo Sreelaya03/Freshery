@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding=ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        setTitle("Spring Fruits");
+        setTitle("Monsoon Fruits");
         bottomNavigationView =findViewById(R.id.bottomNavigationBar);
         frameLayout=findViewById(R.id.container);
         homeFragment=new HomeFragment();
