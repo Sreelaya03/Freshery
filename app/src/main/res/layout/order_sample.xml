@@ -23,11 +23,11 @@
 
             <ImageView
                 android:id="@+id/orderImage"
-                android:layout_width="120dp"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/sample_name"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/northern_meal" />
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/orange" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                     android:id="@+id/orderName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/northern_meal"
+                    android:text="@string/orange"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />

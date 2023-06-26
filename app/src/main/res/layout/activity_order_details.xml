@@ -32,7 +32,7 @@
                     android:layout_marginTop="10dp"
                     android:contentDescription="@string/food_name"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/northern_meal" />
+                    app:srcCompat="@drawable/orange" />
 
                 <TextView
                     android:id="@+id/foodName"
@@ -59,11 +59,11 @@
                     android:padding="2dp">
 
                     <ImageView
-                        android:id="@+id/addBtn"
+                        android:id="@+id/minusBtn"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginRight="5dp"
-                        app:srcCompat="@drawable/add" />
+                        app:srcCompat="@drawable/minus" />
 
                     <TextView
                         android:id="@+id/quantityValue"
@@ -78,11 +78,11 @@
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/minusBtn"
+                        android:id="@+id/addBtn"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginLeft="5dp"
-                        app:srcCompat="@drawable/minus" />
+                        app:srcCompat="@drawable/add" />
 
                 </LinearLayout>
 

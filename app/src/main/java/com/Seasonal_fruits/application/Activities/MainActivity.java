@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding=ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        setTitle("Home");
+        setTitle("Monsoon Fruits");
         bottomNavigationView =findViewById(R.id.bottomNavigationBar);
         frameLayout=findViewById(R.id.container);
         homeFragment=new HomeFragment();
@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnItemSelectedListener(item ->{
             switch (item.getItemId()){
                 case R.id.home:
-                    setTitle("Home");
                     getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
                     return true;
                 case R.id.cart:
