@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.profileFragment"
-    android:background="#CCEA8C00">
+    android:background="#CC5E5E5E">
 
 
     <ImageView
@@ -62,10 +62,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="40dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/name1"
-                android:textAppearance="@style/name"
-                />
+                android:textAppearance="@style/name" />
 
             <TextView
                 android:id="@+id/userName"
@@ -73,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="40dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/userName"
                 android:textAppearance="@style/name"
                 />
@@ -91,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/phoneNumber1"
                 android:textAppearance="@style/name" />
 
@@ -101,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/userPhoneNumber"
                 android:textAppearance="@style/name" />
         </LinearLayout>
@@ -116,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/email1"
                 android:textAppearance="@style/name" />
 
@@ -126,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/stardos_stencil_bold"
+                android:fontFamily="sans-serif"
                 android:text="@string/userEmail"
                 android:textAppearance="@style/name" />
         </LinearLayout>
@@ -139,7 +138,7 @@
             android:layout_marginStart="100dp"
             android:backgroundTint="#CCFC8602"
             android:textColor="@color/red"
-            android:fontFamily="@font/stardos_stencil_bold"
+            android:fontFamily="sans-serif"
             android:textAppearance="@style/name"
             android:text="@string/log_out" />
 

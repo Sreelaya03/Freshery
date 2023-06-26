@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="10dp"
-                    android:contentDescription="@string/food_name"
+                    android:contentDescription=""
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/orange" />
 
@@ -41,7 +41,7 @@
                     android:fontFamily="@font/roboto_mono"
                     android:gravity="center"
                     android:padding="2dp"
-                    android:text="@string/food_name"
+                    android:text=""
                     android:textColor="#000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
